@@ -17,9 +17,10 @@ The goal was to determine if lifestyle attributes like social habits, alcohol co
 ##  Model Performance
 I compared a baseline linear model with a complex ensemble model to capture non-linear student behaviors[cite: 1].
 
-**| Algorithm             | Mean Absolute Error (MAE) | R² Score |
-  | Linear Regression     | 2.64                      | 0.09     |
-  | Random Forest         | 2.63                      | 0.11     |**
+| Algorithm | Mean Absolute Error (MAE) | R² Score |
+| :--- | :--- | :--- |
+| **Linear Regression** | 2.64 | 0.09 |
+| **Random Forest** | **2.63** | **0.11** |
 
 > **Key Insight:** While the $R^2$ score is modest, the Random Forest successfully outperformed the Linear Regression by capturing complex interactions between lifestyle variables. In social science research, an 11% variance explanation is statistically significant for identifying broad performance trends[cite: 1].
 
